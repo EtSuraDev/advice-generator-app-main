@@ -1,10 +1,9 @@
-
-
+import Container from "./component/container";
 function App() {
   return (
-    <h1>
-      starting proect
-    </h1>
+    <div className=" flex justify-center items-center h-[100vh]">
+      <Container />
+    </div>
   );
 }
 
