@@ -20,3 +20,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+button:hover{
+  box-shadow: 0px 0px 50px 0px hsl(150, 100%, 66%);
+}
+button:active{
+  box-shadow: 0px 0px 30px 0px hsl(150, 100%, 66%);
+}
